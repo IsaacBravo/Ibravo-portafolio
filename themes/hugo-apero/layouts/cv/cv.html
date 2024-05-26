@@ -1,0 +1,26 @@
+{{ define "cv" }}
+<article>
+  <header>
+    <h1>{{ .Title }}</h1>
+    {{ if .Params.subtitle }}
+      <h2>{{ .Params.subtitle }}</h2>
+    {{ end }}
+  </header>
+  
+  {{ if .Params.show_intro }}
+    <section>
+      <p>{{ .Params.intro }}</p>
+    </section>
+  {{ end }}
+
+  {{ if .Params.show_pdf }}
+    <section>
+      <a href="{{ .Params.pdf }}" target="_blank">Download CV</a>
+    </section>
+  {{ end }}
+
+  <section>
+    {{ .Content }}
+  </section>
+</article>
+{{ end }}
