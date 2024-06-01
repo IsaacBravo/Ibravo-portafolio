@@ -3,7 +3,7 @@
 text_align_right: false
 show_title_as_headline: false
 headline: |
-  Hi, nice to meet you!
+  <p style="font-size:50px; letter-spacing: -1px;">About Me:</p>
 ---
 
 <!-- this is a subheadline -->
