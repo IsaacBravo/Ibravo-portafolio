@@ -1,7 +1,7 @@
 ---
 title: "Isaac Bravo"
 subtitle: "Doctoral Candidate at the Technical University of Munich"
-description: "Hi there! Working from a Computational Social Science (CSS) perspective, I study how people perceive and react to visual and text climate change content on social media.My research focus on questions such as: How is climate change visually framed on social media? (specifically on X) and How do people react to climate change imagery? My research interest is situated at the intersection of social science and computer science. It combines computational text approaches (sentiment and content analysis, topic modelling) with automated image analysis."
+description: "Hi there! I am Isaac Bravo, a researcher currently pursuing a Ph.D. at the Technical University of Munich. My work focuses on understanding how people portray and perceive climate change through visuals, from a social science perspective. I combine multimodal methods—such as image and text analysis—to explore this global challenge."
 images:
   - img/profile.png
 image_left: true
