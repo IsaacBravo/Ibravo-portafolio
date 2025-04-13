@@ -48,6 +48,12 @@ library(emissionTrackerR)
 track_emissions_for("example_sleep", {
   Sys.sleep(2)
 })
+
+# Output Console:
+Tracking started at 2025-04-13 18:09:43
+Tracking stopped at 2025-04-13 18:09:45
+Estimated emissions (kg CO2): 0.000414
+
 ```
 Logs will be saved as:
 
@@ -62,14 +68,30 @@ library(emissionTrackerR)
 library(randomForest)
 
 track_emissions_for("iris_rf_model", {
+  # Load and expand the iris dataset 10×
   data(iris)
-  idx <- sample(nrow(iris), 0.8 * nrow(iris))
-  train <- iris[idx, ]
-  test <- iris[-idx, ]
+  big_iris <- do.call("rbind", replicate(10, iris, simplify = FALSE))
+  
+  # Train/test split
+  idx <- sample(nrow(big_iris), 0.8 * nrow(big_iris))
+  train <- big_iris[idx, ]
+  test <- big_iris[-idx, ]
+  
+  # Train and evaluate model
   model <- randomForest(Species ~ ., data = train)
   acc <- mean(predict(model, test) == test$Species)
+  
   print(acc)
 })
+
+
+# Output Console:
+Tracking started at 2025-04-13 18:13:53
+[1] 1
+Tracking stopped at 2025-04-13 18:13:53
+Estimated emissions (kg CO2): 8.9e-05
+[1] 1
+
 ```
 ### 🛠 Features
 
