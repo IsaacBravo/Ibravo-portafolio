@@ -10,7 +10,7 @@ title: Publications & Contributions
 <li sytle="width: 950px;"> <b>Isaac Bravo</b>, Katharina Prasse, Stefanie Walter, Margret Keuper (2025). <a href="">Visualizing Climate Change in the Media: A Systematic Literature Review, Challenges, and Future Research.</a>. (Under review) Annals of the International Communication Association</li>
 <br> 
 
-<li sytle="width: 950px;"> <b>Isaac Bravo</b>, Daniel Silva & Stefanie Walter (2025). <a href="">VViral Climate Imagery: Examining Popular Climate Visuals on Twitter.</a>. (Under review) Visual Communication</li>
+<li sytle="width: 950px;"> <b>Isaac Bravo</b>, Daniel Silva & Stefanie Walter (2025). <a href="">Viral Climate Imagery: Examining Popular Climate Visuals on Twitter.</a>. (Under review) Visual Communication</li>
 <br> 
 
 <li sytle="width: 950px;"> Katharina Prasse, <b>Isaac Bravo</b>, Stefanie Walter, Margret Keuper (2025). <a href="https://arxiv.org/abs/2503.09361">I Spy with My Little Eye A Minimum Cost Multicut Investigation of Dataset Frames</a>. Proceedings of the Winter Conference on Applications of Computer Vision (WACV), 2025, pp. 2134-2143</li>

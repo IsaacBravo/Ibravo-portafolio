@@ -1,7 +1,8 @@
 ---
-title: A Project Portfolio To Grow
-description: "Give your projects a place to live online."
-author: "The R Markdown Team @RStudio"
+title: My Projects
+subtitle: "A collection of my past and current work"
+description: "A collection of my past and current work."
+author: "Isaac Bravo"
 show_post_thumbnail: true
 show_author_byline: true
 show_post_date: false

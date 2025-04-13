@@ -31,5 +31,4 @@ This study explores the effects of manipulated visual content on polarized clima
 
 ## My Presentation:
 
-<iframe src="https://drive.google.com/file/d/1a8Ayi-SWENshsP2rlK9_2DYNzsJWJ5PX/preview?usp=sharing" style="width:100%; height:600px;" frameborder="0"></iframe>
-
+<iframe src="https://drive.google.com/file/d/1d4DpOyFvelEhwB2AsxZxFcE1EFsGdHIu/preview?usp=sharing" style="width:100%; height:600px;" frameborder="0"></iframe>
