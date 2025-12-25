@@ -13,6 +13,18 @@ link_list:
   url: https://en.wikipedia.org/wiki/Pastry
 - name: People
   url: https://en.wikipedia.org/wiki/People
+link_list_label_2: "Projects"
+link_list_2:
+- name: Project A
+  url: https://example.com/project-a
+- name: Project B
+  url: https://example.com/project-b
+  link_list_label_2: "Projects"
+link_list_3:
+- name: Project A
+  url: https://example.com/project-a
+- name: Project B
+  url: https://example.com/project-b
 ---
 
 ** index doesn't contain a body, just front matter above.

@@ -86,6 +86,25 @@
               {{ partial "shared/about-links" . }}
             </ul>
           </div>
+
+            {{ if .Params.link_list_label_2 }}
+            <div class="pa1 pa2-ns tc ph4">
+            <h5 class="f-subheadline f4 fw2 ttu tracked">{{ .Params.link_list_label_2 }}</h5>
+            <ul class="list measure center ph4 pb4">
+              {{ partial "shared/about-links" (dict "Params" (dict "link_list" .Params.link_list_2)) }}
+            </ul>
+            </div>
+            {{ end }}
+
+          {{ if .Params.link_list_label_3 }}
+            <div class="pa1 pa2-ns tc ph4">
+            <h5 class="f-subheadline f4 fw2 ttu tracked">{{ .Params.link_list_label_3 }}</h5>
+            <ul class="list measure center ph4 pb4">
+              {{ partial "shared/about-links" (dict "Params" (dict "link_list" .Params.link_list_3)) }}
+            </ul>
+            </div>
+            {{ end }}
+
           <!--<div class="pa1 pa2-ns tc ph4">
             <h5 class="f-subheadline f4 fw2 ttu tracked">{{ .Params.interests_list_label }}</h5>
             <ul class="list measure center ph4 pb4">
