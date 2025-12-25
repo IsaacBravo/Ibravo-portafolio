@@ -1,7 +1,7 @@
 ---
 title: "Isaac Bravo"
 subtitle: "Doctoral Candidate at the Technical University of Munich"
-description: "Hi there! I am Isaac Bravo, a researcher currently pursuing a Ph.D. at the Technical University of Munich. My work focuses on understanding how people portray and perceive climate change through visuals, from a social science perspective. I combine multimodal methods—such as image and text analysis—to explore this global challenge."
+description: "Hi there! I am Isaac Bravo, currently I am Doctoral Candidate at the Technical University of Munich. From a computational social scientist perspective, my work focuses on understanding how people portray and perceive climate change through visuals on social media platforms. In my research I combine multimodal methods, such as image and text analysis—to explore the different dynamic of this global challenge."
 images:
   - img/profile.png
 image_left: true
