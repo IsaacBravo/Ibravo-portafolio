@@ -87,6 +87,14 @@ enableEmoji = true
       icon      = "github" # icon name without the 'fa-'
       icon_pack = "fab"
       url       = "https://github.com/IsaacBravo"
+  [[params.social]]
+      icon      = "linkedin" # icon name without the 'fa-'
+      icon_pack = "fab"
+      url       = "https://www.linkedin.com/in/isaac-bravo/"
+  [[params.social]]
+      icon      = "graduation-cap" # icon name without the 'fa-'
+      icon_pack = "fas"
+      url       = "https://scholar.google.com/citations?hl=en&user=aAre5DkAAAAJ&view_op=list_works&authuser=3&sortby=pubdate"
 #  [[params.social]]
 #      icon      = "facebook-square" # icon name without the 'fa-'
 #      icon_pack = "fab"
@@ -111,10 +119,6 @@ enableEmoji = true
       icon      = "stack-overflow" # icon name without the 'fa-'
       icon_pack = "fab"
       url       = "https://stackoverflow.com/users/16765847/isaac"
-  [[params.social]]
-      icon      = "linkedin" # icon name without the 'fa-'
-      icon_pack = "fab"
-      url       = "https://www.linkedin.com/in/isaac-bravo/"
 #  [[params.social]]
 #      icon      = "rss" # icon name without the 'fa-'
 #      icon_pack = "fas"

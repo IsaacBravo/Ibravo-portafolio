@@ -17,3 +17,6 @@
   {{ $mainJs := resources.Get "js/main.js" | js.Build "main.js" | minify | fingerprint }}
   <script src="{{ $mainJs.RelPermalink }}" type="text/javascript"></script>
 </head>
+
+    <!-- Altmetric badge embed script -->
+    <script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script>
