@@ -7,11 +7,184 @@ title: Experience
 ---
 ### Employments
 <hr>
+<style>
+  .experience-container {
+    background-color: #f8f9fa; 
+    padding: 30px;
+    border: 1px solid #e9ecef;
+    border-radius: 12px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333333;
+  }
+  .experience-table {
+    width: 100%;
+    border-collapse: collapse;
+    line-height: 1.5;
+  }
+  .experience-table td {
+    padding: 12px 10px; /* Slightly tighter vertical padding */
+    vertical-align: top;
+    border-bottom: 1px solid #eeeeee;
+  }
+  .experience-table tr:last-child td {
+    border-bottom: none;
+  }
+  /* Target smaller date text */
+  .date-col {
+    font-size: 0.85rem; /* Reduced from 0.85rem to 0.75rem for a smaller look */
+    color: #777777; /* Slightly lighter gray to reduce visual weight */
+    width: 22%;
+    white-space: nowrap;
+    font-weight: 400;
+    padding-top: 15px !important; /* Aligns smaller text better with larger role text */
+  }
+  .role-col {
+    font-size: 0.95rem;
+    width: 78%;
+  }
+  .role-title {
+    color: #003399; 
+    display: block;
+    margin-bottom: 2px;
+  }
+  .institution {
+    font-weight: normal;
+    color: #555555;
+    font-size: 0.9rem;
+  }
+  /* Styles specifically for 'current' or 'since' text */
+  .date-col em {
+    color: #999999; 
+    font-style: italic;
+    font-size: 0.85rem; /* Even smaller for the auxiliary text */
+  }
+  @media (max-width: 600px) {
+    .date-col, .role-col {
+      display: block;
+      width: 100%;
+    }
+    .date-col {
+      padding-bottom: 0;
+      padding-top: 10px !important;
+    }
+  }
+</style>
 
+<div class="experience-container">
+  <table class="experience-table">
+    <tbody>
+      <tr>
+        <td class="date-col">04/2023 – <em>current</em></td>
+        <td class="role-col">
+          <strong class="role-title">Doctoral Candidate</strong>
+          <span class="institution"><strong>Technical University of Munich</strong></span>
+        </td>
+      </tr>
+      <tr>
+        <td class="date-col">10/2022 – 11/2025</td>
+        <td class="role-col">
+          <strong class="role-title">Doctoral Research</strong>
+          <span class="institution">Research ClimateVision Project.</span><br>
+          <span class="institution"><strong>Technical University of Munich</strong></span>
+        </td>
+      </tr>      
+      <tr>
+        <td class="date-col">04/2021 – <em>current</em></td>
+        <td class="role-col">
+          <strong class="role-title">Volunteer Website UX.</strong>
+          <span class="institution">Project 100 Voices One Planet</span>
+        </td>
+      </tr>
+      <tr>
+        <td class="date-col">2021 – 2022</td>
+        <td class="role-col">
+          <strong class="role-title">Research Assistant</strong>
+          <span class="institution">Research assistant in the project: Emmy Noether Research Group: The Media Portrayal of
+Majority and Minority Groups: Understanding the Media’s Role in Constructing Similarities
+and Differences.</span><br>
+          <span class="institution"><strong>Technical University of Munich</strong></span>
+        </td>
+      </tr>
+      <tr>
+        <td class="date-col">2021 – 2022</td>
+        <td class="role-col">
+          <strong class="role-title">Research Assistant</strong>
+          <span class="institution">Research Assistant in the project: CoronaNet Research Project.</span>  <br>
+          <span class="institution"><strong>Technical University of Munich</strong></span>
+        </td>
+      </tr>
+      <tr>
+        <td class="date-col">2019 – 2019</td>
+        <td class="role-col">
+          <strong class="role-title">Financial Management Adviser</strong>
+          <span class="institution"><strong>New Public Education, Chile</strong></span>
+        </td>
+      </tr>
+      <tr>
+        <td class="date-col">2018 - 2019</td>
+        <td class="role-col">
+          <strong class="role-title">Financial Process Analyst</strong>
+          <span class="institution"><strong>Superintendency of Education, Chile</strong></span>
+        </td>
+      </tr>
+      <tr>
+        <td class="date-col">2015 - 2018</td>
+        <td class="role-col">
+          <strong class="role-title">Data Analyst in Regional Cordination Team</strong>
+          <span class="institution"><strong>Ministry of Education, Chile</strong></span>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
 ### Education
 <hr>
-
+<div class="experience-container">
+  <table class="experience-table">
+    <tbody>
+      <tr>
+        <td class="date-col">04/2023 – <em>current</em></td>
+        <td class="role-col">
+          <strong class="role-title">Doctoral Candidate</strong>
+          <span class="institution"><strong>Technical University of Munich</strong></span>
+        </td>
+      </tr>
+      <tr>
+        <td class="date-col">2020 – 2022</td>
+        <td class="role-col">
+          <strong class="role-title">Master of Science Politics & Technology</strong>
+          <span class="institution">Thesis: A comparative analysis of mass media coverage of minority groups affected by
+climate change.</span><br>
+          <span class="institution"><strong>Technical University of Munich</strong></span>
+        </td>
+      </tr>      
+      <tr>
+        <td class="date-col">2018 – 2018</td>
+        <td class="role-col">
+          <strong class="role-title">Diploma in Data Science.</strong>
+          <span class="institution"><strong>Pontifical Catholic University of Chile</strong></span>
+        </td>
+      </tr>
+      <tr>
+        <td class="date-col">2014 – 2016</td>
+        <td class="role-col">
+          <strong class="role-title">Master in Government and Public Management</strong>
+          <span class="institution">Thesis: Digital strategy in Chile: its implementation and repercussions on national economic development. The Chilean Experience (2002-2015).</span><br>
+          <span class="institution"><strong>University of Chile</strong></span>
+        </td>
+      </tr>
+      <tr>
+        <td class="date-col">2009 – 2014</td>
+        <td class="role-col">
+          <strong class="role-title">Public Administration</strong>
+          <span class="institution">Degree in Political and Governmental Sciences, mention in Public Management, graduated with distinction.</span>  <br>
+          <span class="institution"><strong>University of Chile</strong></span>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
 ### Software + Programming
 <hr>
