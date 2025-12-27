@@ -10,10 +10,12 @@ number_categories: 3 # set to zero to exclude
 #weight: 40
 ---
 ## English Version
-<iframe src="https://drive.google.com/file/d/1AFeq5w-DbOfO82K-UQg6Q8tmsikZGvGr/preview" 
+<iframe src="https://drive.google.com/file/d/1BOEsbLsVVK4jkx8i6pUoQROYdCWw_AlK/preview" 
                 width="100%" height="650px" 
                 class="presentation-iframe">
 </iframe>
+
+https://drive.google.com/file/d/1BOEsbLsVVK4jkx8i6pUoQROYdCWw_AlK/view?usp=sharing
 
 <!-- ## Spanish Version
 <iframe src="https://drive.google.com/file/d/1BOEsbLsVVK4jkx8i6pUoQROYdCWw_AlK/preview" 
