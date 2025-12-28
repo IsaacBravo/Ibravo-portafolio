@@ -1,1 +1,31 @@
 // Override this file to add your own SCSS styling.
+
+/* Change the sidebar background color */
+.docs-sidebar {
+  background-color: #f8f9fa;
+}
+
+/* Style the section headings (Interests, Computer Skills) */
+.sidebar-section-title {
+  color: #2c3e50;
+  font-weight: bold;
+  border-bottom: 2px solid #3498db;
+  margin-top: 20px;
+}
+
+.about-sidebar {
+  color: #3498db;
+  font-weight: bold;
+  border-bottom: 2px solid #3498db;
+  margin-top: 20px;
+}
+
+.f-subheadline  {
+  color: #003399;
+}
+
+/* Change the font size of the list items */
+.sidebar-link-item {
+  font-size: 14px;
+  color: #555;
+}
