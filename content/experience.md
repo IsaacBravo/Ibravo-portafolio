@@ -138,6 +138,31 @@ and Differences.</span><br>
   </table>
 </div>
 
+### Teaching
+<hr>
+<div class="experience-container">
+  <table class="experience-table">
+    <tbody>
+      <tr>
+        <td class="date-col">Winter semester 2024/25</td>
+        <td class="role-col">
+          <strong class="role-title">Introduction to Research Design in the Social Sciences. </strong>
+          <span class="institution">Collaborating in the session related to Introduction to Quantitative Methods.</span><br>
+          <span class="institution"><strong>Technical University of Munich</strong></span>
+        </td>
+      </tr>
+      <tr>
+        <td class="date-col">Summer semester 2024</td>
+        <td class="role-col">
+          <strong class="role-title">Introduction to Research Design in the Social Sciences.</strong>
+          <span class="institution">Collaborating in the session related to Introduction to Quantitative Methods. </span>  <br>
+          <span class="institution"><strong>Technical University of Munich</strong></span>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
 ### Education
 <hr>
 <div class="experience-container">
