@@ -235,3 +235,22 @@ title: Publications & Contributions
   </div>
 </li>
 <br>
+
+### Media & Outreach 
+<hr>
+<li>
+  <div style="display: flex; align-items: flex-start; justify-content: space-between; gap: 12px;">
+    <div style="flex: 1 1 auto;">
+      <u>Isaac Bravo</u> featured in <strong>Wie der Klimawandelwandel auf X geframt wird: Neues aus der Forschung</strong> (2026) 
+      <em>Media appearance / Research outreach, Wissenschaftskommunikation.de</em>.
+      <ul style="list-style: none; padding-left: 0; margin-top: 8px;">
+        <li>
+          <a href="https://www.wissenschaftskommunikation.de/wie-der-klimawandelwandel-auf-x-geframt-wird-neues-aus-der-forschung-94353/" class="icon-link" target="_blank" rel="noopener" style="text-decoration: none; color: #003399"><i class="fa fa-link"></i> View Article</a>
+        </li>
+      </ul>
+    </div>
+    <span style="flex: 0 0 auto; vertical-align:middle; margin-left:8px;">
+    </span>
+  </div>
+</li>
+<br>
