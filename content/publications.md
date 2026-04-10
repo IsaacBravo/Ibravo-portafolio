@@ -10,6 +10,25 @@ title: Publications & Contributions
 <li>
   <div style="display: flex; align-items: flex-start; justify-content: space-between; gap: 12px;">
     <div style="flex: 1 1 auto;">
+      Bravo, I., Walter, S., Prasse, K., & Keuper, M. (2026). <strong>Visualizing climate change in the media: a systematic literature review, challenges, and future research</strong> <em>Annals of the International Communication Association</em>, 0(0).
+    <ul style="list-style: none; padding-left: 0; margin-top: 8px;">
+        <li>
+        <a href="https://academic.oup.com/anncom/advance-article/doi/10.1093/anncom/wlag011/8554293" class="icon-link" target="_blank" rel="noopener" style="text-decoration: none; color: #003399"><i class="fa fa-link"></i> View</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="https://watermark02.silverchair.com/wlag011.pdf?token=AQECAHi208BE49Ooan9kkhW_Ercy7Dm3ZL_9Cf3qfKAc485ysgAAA2wwggNoBgkqhkiG9w0BBwagggNZMIIDVQIBADCCA04GCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMTO_6dm_VwJJkUuumAgEQgIIDH5WOIM3ugoGhLIRJbPxPtuVSmzibg4VwOpR8SmxhFvg1XHT7T1DzWaDulQ2qTd-7JvHwC2J9xcfyTMnIJFSQO_A3GPPwPlFe-wS_tolNYmJnmWUg-O0FdMdW7Y13Lw0WtN3ROKy3YO8Ue003vL4-snaMGZCm4qXe3oGauxXtIMwG6tR1sNCkdxPsmGU2E8o3xRmqlNLoyaDWMZBnPdHOPFI8TtCnaQ2oFuIvEPutgqL3lq2eg1cXr7Ofs-_QsX3UkchdRRv5WsVUTE0logWlnsprXt5-rBjJYOOPDiuap30YRi28nLlIMtKj4QSGF6pYwE8lDKcAJlANRFZk00RiZ4BILt97SEhBxQEZYStuR8j6CGRXo_7oM1VKx7abn8AeqNoQ-22Ssl6rM8urjyV_Kc6MZWf40ckHSs3TnvSShf6M8SUnu8IklLyEdd7eQurqipsEhnWYrJfA__eOwFI4WAaz9fWXxvTClM3eKMl-AliNME6CgaZ4mTy4iVwL-pjHocNs-sQ1q7aHjVFIkwpoJBn5PorbEuZ4AX6EDXmGZcRNILiu76_pQNdeojINWh_YW4WIFsPUsqHs708aS8ko9OxnRs3KwKIv0iCZ-uHJOVUdUhsGDjqN7tmxYh3iY-7NDLwhv91Jm6fD9s_fmT_cYKr048C9Tw4jzqgPiyIWoynHUrW_ccUCmY5yZh0_uBA6DssLOOVzefoqXhsCxID_ltR6bPm975T2JzZ8SSUIDzgHMbk0jgy4yamRmKUAePmaj6odOTgiTUgbKbDEUPyEfhbv7PWXSyafwBmyp9YItd3XUZbOlzkIeBf-6AciY-6dBTWXqYD81shxdYzuc5nELkAyB_KAc5BUCUAzSzyJi6w5QDKUzBuyRLTaEoqeU_lM8GZSflMgWHnymga-DYHdrKmMqaiRhgHIWuZ5e8DiWi0KBI_AB8Gr7qTQVE1zT3VbLHgt2xSoxSotWP5PHhu4XEBQnaJ5L6vaGqGwOGSCgpho_EdEFzX6SjiEYa3YMF0VzTmpOY9qNPt0svz7AEM9lG4DoDtuvRmxvML3FkqVaBo" class="icon-link" target="_blank" rel="noopener" style="text-decoration: none; color: #003399"><i class="fa fa-file"></i> PDF</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="https://scholar.google.com/citations?view_op=view_citation&hl=de&user=aAre5DkAAAAJ&sortby=pubdate&citation_for_view=aAre5DkAAAAJ:ufrVoPGSRksC" class="icon-link" target="_blank" rel="noopener" style="text-decoration: none; color: #003399"><i class="ai ai-google-scholar"></i> Google Scholar</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="https://search.crossref.org/?q=10.1093/anncom/wlag011" class="icon-link" target="_blank" rel="noopener" style="text-decoration: none; color: #003399"><i class="ai ai-crossref"></i> CrossRef</a>
+        </li>
+    </ul>
+    </div>
+    <span style="flex: 0 0 auto; vertical-align:middle; margin-left:8px;">
+      <span data-badge-type="donut" data-doi="10.1093/anncom/wlag011" data-hide-no-mentions="true" data-badge-popover="right" class="altmetric-embed"></span>
+    </span>
+  </div>
+</li>
+<br>
+<li>
+  <div style="display: flex; align-items: flex-start; justify-content: space-between; gap: 12px;">
+    <div style="flex: 1 1 auto;">
       Bravo, I., Prasse, K., Walter, S., O’Neill, S., & Keuper, M. (2025). <strong>Global Dynamics of Climate Change Imagery: Emotional and Engagement Effects Across Visual Frames on Twitter/X</strong> <em>Science Communication</em>, 0(0).
     <ul style="list-style: none; padding-left: 0; margin-top: 8px;">
         <li>
@@ -134,27 +153,27 @@ title: Publications & Contributions
 
 ### Journal Articles (Under Review)
 <hr>
-<li>
+<!--<li>
   <div style="display: flex; align-items: flex-start; justify-content: space-between; gap: 12px; margin-bottom: 15px;">
     <div style="flex: 1 1 auto;">
       <u>Isaac Bravo</u>, Katharina Prasse, Stefanie Walter, & Margret Keuper (2025) 
       <strong>Visualizing Climate Change in the Media: A Systematic Literature Review, Challenges, and Future Research</strong> 
       <em>Annals of the International Communication Association</em>.
-      <!-- <ul style="list-style: none; padding-left: 0; margin-top: 8px;">
+       <ul style="list-style: none; padding-left: 0; margin-top: 8px;">
         <li>
           <a href="#" class="icon-link" style="text-decoration: none; color: #888; cursor: not-allowed;"><i class="fa fa-link"></i> Link coming soon</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
           <a href="https://scholar.google.com/scholar?q=Visualizing+Climate+Change+in+the+Media+Isaac+Bravo" class="icon-link" target="_blank" rel="noopener" style="text-decoration: none; color: #003399"><i class="ai ai-google-scholar"></i> Google Scholar Search</a>
         </li>
-      </ul> -->
+      </ul>
     </div>
-    <!-- <span style="flex: 0 0 auto; width: 60px;"></span> -->
+    <span style="flex: 0 0 auto; width: 60px;"></span> 
   </div>
 </li>
-<br>
+<br> -->
 <li>
   <div style="display: flex; align-items: flex-start; justify-content: space-between; gap: 12px;">
     <div style="flex: 1 1 auto;">
-      Sean Palicki, <u>Isaac Bravo</u>, & Clint Claessen (2025) 
+      Sean Palicki, <u>Isaac Bravo</u>, & Clint Claessen (2026) 
       <strong>Don’t Look Up: Evaluating the Tradeoff between Accuracy and Sustainability of LLMs for Text Analysis</strong> 
       <em>Social Science Computer Review</em>.
       <ul style="list-style: none; padding-left: 0; margin-top: 8px;">
