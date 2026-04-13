@@ -257,17 +257,7 @@ title: Publications & Contributions
 
 ### Reviewer
 <hr>
-<li>
-  <div style="display: flex; align-items: flex-start; justify-content: space-between; gap: 12px;">
-    <div style="flex: 1 1 auto;">
-      <ul style="list-style: none; padding-left: 0; margin-top: 8px;">
-        <li>Journal of Digital Social Research</li>
-        <li>Telematics and Informatics Report</li>
-        <li>Environmental Management</li>
-      </ul>
-    </div>
-    <span style="flex: 0 0 auto; vertical-align:middle; margin-left:8px;">
-    </span>
-  </div>
-</li>
+<li>Journal of Digital Social Research</li>
+<li>Telematics and Informatics Report</li>
+<li>Environmental Management</li>
 <br>
