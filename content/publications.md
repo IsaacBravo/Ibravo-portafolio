@@ -260,8 +260,6 @@ title: Publications & Contributions
 <li>
   <div style="display: flex; align-items: flex-start; justify-content: space-between; gap: 12px;">
     <div style="flex: 1 1 auto;">
-      <u>Isaac Bravo</u> featured in <strong>Wie der Klimawandelwandel auf X geframt wird: Neues aus der Forschung</strong> (2026) 
-      <em>Media appearance / Research outreach, Wissenschaftskommunikation.de</em>.
       <ul style="list-style: none; padding-left: 0; margin-top: 8px;">
         <li>Journal of Digital Social Research</li>
         <li>Telematics and Informatics Report</li>
