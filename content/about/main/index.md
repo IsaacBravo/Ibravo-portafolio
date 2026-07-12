@@ -6,7 +6,7 @@ use_featured: false # if false, use most recent by date
 number_categories: 3 # set to zero to exclude
 show_intro: true
 intro: |
-  I am currently a Doctoral Researcher at the Technical University of Munich. From October 2022 to November 2025 I was involved in the Climate Vision Project, where we explored innovative approaches to understanding how people portray, understand, and react to climate change visuals on social media. This role allowed me to contribute to research at the intersection of computational social science and environmental communication.
+  I hold a PhD in Environmental Media and Communication from the Technical University of Munich. From October 2022 to November 2025 I was involved in the Climate Vision Project, where we explored innovative approaches to understanding how people portray, understand, and react to climate change visuals on social media. This role allowed me to contribute to research at the intersection of computational social science and environmental communication.
 
   Previously, I held dual roles as a Student Research Assistant at the same institution, working with the Emmy Noether Research Group and the Corona Research Project between 2021 and 2022. These positions focused respectively on analyzing media portrayals of majority and minority groups, and on researching public health responses during the COVID-19 pandemic.
 

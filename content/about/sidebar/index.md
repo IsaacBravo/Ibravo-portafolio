@@ -24,5 +24,5 @@ link_list_label_3: Languages
 link_list_3:
   - name: Spanish - Native
   - name: English - Professional
-  - name: German - Elementary
+  - name: German - Intermediate (B2)
 ---

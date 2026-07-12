@@ -74,16 +74,9 @@ title: Experience
   <table class="experience-table">
     <tbody>
       <tr>
-        <td class="date-col">04/2023 – <em>current</em></td>
-        <td class="role-col">
-          <strong class="role-title">Doctoral Candidate</strong>
-          <span class="institution"><strong>Technical University of Munich</strong></span>
-        </td>
-      </tr>
-      <tr>
         <td class="date-col">10/2022 – 11/2025</td>
         <td class="role-col">
-          <strong class="role-title">Doctoral Research</strong>
+          <strong class="role-title">Doctoral Researcher</strong>
           <span class="institution">Research ClimateVision Project.</span><br>
           <span class="institution"><strong>Technical University of Munich</strong></span>
         </td>
@@ -169,7 +162,7 @@ and Differences.</span><br>
   <table class="experience-table">
     <tbody>
       <tr>
-        <td class="date-col">04/2023 – <em>current</em></td>
+        <td class="date-col">04/2023 – 06/2026</td>
         <td class="role-col">
           <strong class="role-title">Doctoral Candidate</strong>
           <span class="institution"><strong>Technical University of Munich</strong></span>
