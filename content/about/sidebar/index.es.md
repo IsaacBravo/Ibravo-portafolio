@@ -22,5 +22,5 @@ link_list_label_3: "Idiomas"
 link_list_3:
   - name: Español - Nativo
   - name: Inglés - Profesional
-  - name: Alemán - Básico
+  - name: Alemán - Intermedio (B2)
 ---

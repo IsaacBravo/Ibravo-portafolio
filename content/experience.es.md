@@ -74,32 +74,25 @@ title: Experiencia
   <table class="experience-table">
     <tbody>
       <tr>
-        <td class="date-col">04/2023 – <em>actualidad</em></td>
-        <td class="role-col">
-          <strong class="role-title">Doctoral Candidate</strong>
-          <span class="institution"><strong>Technical University of Munich</strong></span>
-        </td>
-      </tr>
-      <tr>
         <td class="date-col">10/2022 – 11/2025</td>
         <td class="role-col">
-          <strong class="role-title">Doctoral Research</strong>
-          <span class="institution">Research ClimateVision Project.</span><br>
+          <strong class="role-title">Investigador doctoral</strong>
+          <span class="institution">Investigación en el proyecto ClimateVision.</span><br>
           <span class="institution"><strong>Technical University of Munich</strong></span>
         </td>
       </tr>      
       <tr>
         <td class="date-col">04/2021 – <em>actualidad</em></td>
         <td class="role-col">
-          <strong class="role-title">Volunteer Website UX.</strong>
+          <strong class="role-title">Voluntario en UX del sitio web.</strong>
           <span class="institution">Project 100 Voices One Planet</span>
         </td>
       </tr>
       <tr>
         <td class="date-col">2021 – 2022</td>
         <td class="role-col">
-          <strong class="role-title">Research Assistant</strong>
-          <span class="institution">Research assistant in the project: Emmy Noether Research Group: The Media Portrayal of
+          <strong class="role-title">Asistente de investigación</strong>
+          <span class="institution">Asistente de investigación en el proyecto Emmy Noether Research Group: The Media Portrayal of
 Majority and Minority Groups: Understanding the Media’s Role in Constructing Similarities
 and Differences.</span><br>
           <span class="institution"><strong>Technical University of Munich</strong></span>
@@ -108,29 +101,29 @@ and Differences.</span><br>
       <tr>
         <td class="date-col">2021 – 2022</td>
         <td class="role-col">
-          <strong class="role-title">Research Assistant</strong>
-          <span class="institution">Research Assistant in the project: CoronaNet Research Project.</span>  <br>
+          <strong class="role-title">Asistente de investigación</strong>
+          <span class="institution">Asistente de investigación en el CoronaNet Research Project.</span>  <br>
           <span class="institution"><strong>Technical University of Munich</strong></span>
         </td>
       </tr>
       <tr>
         <td class="date-col">2019 – 2019</td>
         <td class="role-col">
-          <strong class="role-title">Financial Management Adviser</strong>
+          <strong class="role-title">Asesor en gestión financiera</strong>
           <span class="institution"><strong>New Public Education, Chile</strong></span>
         </td>
       </tr>
       <tr>
         <td class="date-col">2018 - 2019</td>
         <td class="role-col">
-          <strong class="role-title">Financial Process Analyst</strong>
+          <strong class="role-title">Analista de procesos financieros</strong>
           <span class="institution"><strong>Superintendency of Education, Chile</strong></span>
         </td>
       </tr>
       <tr>
         <td class="date-col">2015 - 2018</td>
         <td class="role-col">
-          <strong class="role-title">Data Analyst in Regional Cordination Team</strong>
+          <strong class="role-title">Analista de datos en equipo de coordinación regional</strong>
           <span class="institution"><strong>Ministry of Education, Chile</strong></span>
         </td>
       </tr>
@@ -144,18 +137,18 @@ and Differences.</span><br>
   <table class="experience-table">
     <tbody>
       <tr>
-        <td class="date-col">Winter semester 2024/25</td>
+        <td class="date-col">Semestre de invierno 2024/25</td>
         <td class="role-col">
           <strong class="role-title">Introduction to Research Design in the Social Sciences. </strong>
-          <span class="institution">Collaborating in the session related to Introduction to Quantitative Methods.</span><br>
+          <span class="institution">Colaboración en la sesión relacionada con introducción a métodos cuantitativos.</span><br>
           <span class="institution"><strong>Technical University of Munich</strong></span>
         </td>
       </tr>
       <tr>
-        <td class="date-col">Summer semester 2024</td>
+        <td class="date-col">Semestre de verano 2024</td>
         <td class="role-col">
           <strong class="role-title">Introduction to Research Design in the Social Sciences.</strong>
-          <span class="institution">Collaborating in the session related to Introduction to Quantitative Methods. </span>  <br>
+          <span class="institution">Colaboración en la sesión relacionada con introducción a métodos cuantitativos. </span>  <br>
           <span class="institution"><strong>Technical University of Munich</strong></span>
         </td>
       </tr>
@@ -169,9 +162,9 @@ and Differences.</span><br>
   <table class="experience-table">
     <tbody>
       <tr>
-        <td class="date-col">04/2023 – <em>actualidad</em></td>
+        <td class="date-col">04/2023 – 06/2026</td>
         <td class="role-col">
-          <strong class="role-title">Doctoral Candidate</strong>
+          <strong class="role-title">Candidato doctoral</strong>
           <span class="institution"><strong>Technical University of Munich</strong></span>
         </td>
       </tr>
@@ -179,7 +172,7 @@ and Differences.</span><br>
         <td class="date-col">2020 – 2022</td>
         <td class="role-col">
           <strong class="role-title">Master of Science Politics & Technology</strong>
-          <span class="institution">Thesis: A comparative analysis of mass media coverage of minority groups affected by
+          <span class="institution">Tesis: A comparative analysis of mass media coverage of minority groups affected by
 climate change.</span><br>
           <span class="institution"><strong>Technical University of Munich</strong></span>
         </td>
@@ -187,23 +180,23 @@ climate change.</span><br>
       <tr>
         <td class="date-col">2018 – 2018</td>
         <td class="role-col">
-          <strong class="role-title">Diploma in Data Science.</strong>
+          <strong class="role-title">Diplomado en Data Science.</strong>
           <span class="institution"><strong>Pontifical Catholic University of Chile</strong></span>
         </td>
       </tr>
       <tr>
         <td class="date-col">2014 – 2016</td>
         <td class="role-col">
-          <strong class="role-title">Master in Government and Public Management</strong>
-          <span class="institution">Thesis: Digital strategy in Chile: its implementation and repercussions on national economic development. The Chilean Experience (2002-2015).</span><br>
+          <strong class="role-title">Magíster en Gobierno y Gerencia Pública</strong>
+          <span class="institution">Tesis: Digital strategy in Chile: its implementation and repercussions on national economic development. The Chilean Experience (2002-2015).</span><br>
           <span class="institution"><strong>University of Chile</strong></span>
         </td>
       </tr>
       <tr>
         <td class="date-col">2009 – 2014</td>
         <td class="role-col">
-          <strong class="role-title">Public Administration</strong>
-          <span class="institution">Degree in Political and Governmental Sciences, mention in Public Management, graduated with distinction.</span>  <br>
+          <strong class="role-title">Administración Pública</strong>
+          <span class="institution">Grado en Ciencias Políticas y Gubernamentales, mención en Gestión Pública, titulado con distinción.</span>  <br>
           <span class="institution"><strong>University of Chile</strong></span>
         </td>
       </tr>

@@ -22,5 +22,5 @@ link_list_label_3: "Sprachen"
 link_list_3:
   - name: Spanisch - Muttersprache
   - name: Englisch - Professionell
-  - name: Deutsch - Grundkenntnisse
+  - name: Deutsch - Mittelstufe (B2)
 ---
