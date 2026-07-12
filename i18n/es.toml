@@ -1,0 +1,45 @@
+[home]
+other = "Inicio"
+
+[language]
+other = "Idioma"
+
+[madeWith]
+other = "Hecho con"
+
+[postedOn]
+other = "Publicado el:"
+
+[length]
+other = "Extensión:"
+
+[minuteRead]
+one = "minuto de lectura"
+other = "minutos de lectura"
+
+[words]
+other = "palabras"
+
+[categories]
+other = "Categorías:"
+
+[series]
+other = "Serie:"
+
+[tags]
+other = "Etiquetas:"
+
+[seeAlso]
+other = "Ver también:"
+
+[writtenBy]
+other = "Escrito por"
+
+[by]
+other = "Por"
+
+[in]
+other = "en"
+
+[downloadCv]
+other = "Descargar CV en PDF"

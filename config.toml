@@ -1,6 +1,8 @@
 baseURL = "/"
 theme = "hugo-apero"
 languageCode = "en"
+defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = false
 title = "Hugo Apéro"
 author = "Alison Hill"
 copyright = "" # set to override the auto generated copyright using org info and now year
@@ -39,7 +41,7 @@ enableEmoji = true
   socialInFooter = true
   # Default image for social sharing and search engines. 
   # Place image file in `static` folder and specify image name here.
-  # sharing_image = "/img/papillons.jpg"
+  sharing_image = "/img/home_logo.png"
   # Twitter username (without @). Used when a visitor shares your site on Twitter.
   # twitter = "apreshill"
   
@@ -129,65 +131,159 @@ enableEmoji = true
   series = "series"
   tag = "tags"
 
-[menu]
-  # Configure header 
- [[menu.header]]
+[languages]
+  [languages.en]
+    languageCode = "en"
+    languageName = "English"
+    weight = 1
+    title = "Isaac Bravo"
+    [languages.en.params]
+      description = "Doctoral Candidate at the Technical University of Munich."
+
+  [languages.de]
+    languageCode = "de-DE"
+    languageName = "Deutsch"
+    weight = 2
+    title = "Isaac Bravo"
+    [languages.de.params]
+      description = "Doktorand an der Technischen Universität München."
+
+  [languages.es]
+    languageCode = "es-ES"
+    languageName = "Español"
+    weight = 3
+    title = "Isaac Bravo"
+    [languages.es.params]
+      description = "Doctorando en la Universidad Técnica de Múnich."
+
+  # English header
+  [[languages.en.menu.header]]
     name = "About"
-    title = "About Blogophonic"
+    title = "About"
     url = "/about/"
     weight = 1
-[[menu.header]]
+  [[languages.en.menu.header]]
     name = "Experience"
     title = "Experience"
     url = "/experience/"
     weight = 2
-[[menu.header]]
+  [[languages.en.menu.header]]
     name = "Publications"
     title = "Publications"
     url = "/publications/"
-    weight = 2
-[[menu.header]]
-   name = "Projects"
-   title = "Project Portfolio"
-   url = "/project/"
-   weight = 3
-  [[menu.header]]
+    weight = 3
+  [[languages.en.menu.header]]
+    name = "Projects"
+    title = "Project Portfolio"
+    url = "/project/"
+    weight = 4
+  [[languages.en.menu.header]]
     name = "Talks"
     title = "Talks"
     url = "/talk/"
-    weight = 4
-#  [[menu.header]]
-#    name = "A collection"
-#    title = "A collection"
-#    url = "/collection/"
-#    weight = 5
-  [[menu.header]]
+    weight = 5
+  [[languages.en.menu.header]]
     name = "CV"
     title = "CV"
     url = "/cv/"
-    weight = 5
-#  [[menu.header]]
-#    name = "Elements"
-#    title = "Element Page"
-#    url = "/elements/"
-#    weight = 7
-    
-  # Configure footer  
-  [[menu.footer]]
+    weight = 6
+
+  [[languages.en.menu.footer]]
     name = "License"
     title = "License"
     url = "/license/"
     weight = 1
-  [[menu.footer]]
+  [[languages.en.menu.footer]]
     name = "Contributors"
     title = "Contributors"
     url = "/contributors/"
     weight = 2
-#  [[menu.header]]
-#    name = "Contact"
-#    title = "Contact form"
-#    url = "/contact/"
-#    weight = 3
+
+  # German header
+  [[languages.de.menu.header]]
+    name = "Über mich"
+    title = "Über mich"
+    url = "/about/"
+    weight = 1
+  [[languages.de.menu.header]]
+    name = "Erfahrung"
+    title = "Erfahrung"
+    url = "/experience/"
+    weight = 2
+  [[languages.de.menu.header]]
+    name = "Publikationen"
+    title = "Publikationen"
+    url = "/publications/"
+    weight = 3
+  [[languages.de.menu.header]]
+    name = "Projekte"
+    title = "Projektportfolio"
+    url = "/project/"
+    weight = 4
+  [[languages.de.menu.header]]
+    name = "Vorträge"
+    title = "Vorträge"
+    url = "/talk/"
+    weight = 5
+  [[languages.de.menu.header]]
+    name = "CV"
+    title = "Lebenslauf"
+    url = "/cv/"
+    weight = 6
+
+  [[languages.de.menu.footer]]
+    name = "Lizenz"
+    title = "Lizenz"
+    url = "/license/"
+    weight = 1
+  [[languages.de.menu.footer]]
+    name = "Mitwirkende"
+    title = "Mitwirkende"
+    url = "/contributors/"
+    weight = 2
+
+  # Spanish header
+  [[languages.es.menu.header]]
+    name = "Sobre mí"
+    title = "Sobre mí"
+    url = "/about/"
+    weight = 1
+  [[languages.es.menu.header]]
+    name = "Experiencia"
+    title = "Experiencia"
+    url = "/experience/"
+    weight = 2
+  [[languages.es.menu.header]]
+    name = "Publicaciones"
+    title = "Publicaciones"
+    url = "/publications/"
+    weight = 3
+  [[languages.es.menu.header]]
+    name = "Proyectos"
+    title = "Portafolio de proyectos"
+    url = "/project/"
+    weight = 4
+  [[languages.es.menu.header]]
+    name = "Charlas"
+    title = "Charlas"
+    url = "/talk/"
+    weight = 5
+  [[languages.es.menu.header]]
+    name = "CV"
+    title = "Currículum vitae"
+    url = "/cv/"
+    weight = 6
+
+  [[languages.es.menu.footer]]
+    name = "Licencia"
+    title = "Licencia"
+    url = "/license/"
+    weight = 1
+  [[languages.es.menu.footer]]
+    name = "Colaboradores"
+    title = "Colaboradores"
+    url = "/contributors/"
+    weight = 2
 
 
 # see https://gohugo.io/about/hugo-and-gdpr/    

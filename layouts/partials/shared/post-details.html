@@ -1,0 +1,34 @@
+<details {{ .Scratch.Get "details" }} class="f6 fw7 input-reset">
+  <dl class="f6 lh-copy">
+    <dt class="fw7">{{ i18n "postedOn" }}</dt>
+    <dd class="fw5 ml0">{{ .PublishDate.Format "January 2, 2006" }}</dd>
+  </dl>
+  <dl class="f6 lh-copy">
+    <dt class="fw7">{{ i18n "length" }}</dt>
+    <dd class="fw5 ml0">{{ .ReadingTime }} {{ i18n "minuteRead" .ReadingTime }}, {{ .WordCount }} {{ i18n "words" }}</dd>
+  </dl>
+  {{ with .Params.categories }}
+  <dl class="f6 lh-copy">
+    <dt class="fw7">{{ i18n "categories" }}</dt>
+    <dd class="fw5 ml0">{{ range . }} <a href="{{ "categories/" | absLangURL }}{{ . | urlize }}">{{ . }}</a> {{ end }}</dd>
+  </dl>
+  {{ end }}
+  {{ with .Params.series }}
+  <dl class="f6 lh-copy">
+    <dt class="fw7">{{ i18n "series" }}</dt>
+    <dd class="fw5 ml0">{{ range . }} <a href="{{ "series/" | absLangURL }}{{ . | urlize }}">{{ . }}</a> {{ end }}</dd>
+  </dl>
+  {{ end }}
+  {{ with .Params.tags }}
+  <dl class="f6 lh-copy">
+    <dt class="fw7">{{ i18n "tags" }}</dt>
+    <dd class="fw5 ml0">{{ range . }} <a href="{{ "tags/" | absLangURL }}{{ . | urlize }}">{{ . }}</a> {{ end }}</dd>
+  </dl>
+  {{ end }}
+  <dl class="f6 lh-copy">
+    <dt class="fw7">{{ i18n "seeAlso" }}</dt>
+    {{ range first 3 ( where ( where .Site.Pages.ByDate.Reverse ".Params.tags" "intersect" .Params.tags ) "Permalink" "!=" .Permalink ) }}
+    <dd class="fw5 ml0"><a href="{{ .RelPermalink }}">{{ .Title }}</a></dd>
+    {{ end }}
+  </dl>
+</details>

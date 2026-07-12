@@ -1,0 +1,24 @@
+{{ define "main" }}
+{{ $caller := . }}
+{{ $pages := where .RegularPagesRecursive "Type" "project" }}
+{{ if eq (len $pages) 0 }}
+  {{ with index .Sites 0 }}
+    {{ with .GetPage "/project" }}
+      {{ $pages = where .RegularPagesRecursive "Type" "project" }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+<main class="page-main pa4" role="main">
+  <section class="blog-intro mw8 center tc mb5">
+    <h2 class="f2 f1-ns lh-solid center fw4">{{ .Title }}</h2>
+    <p class="f6 f5-ns measure lh-copy center">{{ .Description }}</p>
+    {{ if .Params.show_author_byline }}<p class="f7 measure lh-copy tc center i">{{ if .Params.author }}{{ i18n "writtenBy" }} {{ .Params.author }}{{ end }}</p>{{ end }}
+  </section>
+  <section class="blog-content db flex-ns flex-row-ns flex-wrap-ns items-start mw8 center">
+    {{ range $pages }}
+      {{ .Scratch.Set "$root" $caller }}
+      {{ partial "shared/summary-grid" . }}
+    {{ end }}
+  </section>
+</main>
+{{ end }}

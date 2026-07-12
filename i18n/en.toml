@@ -1,0 +1,45 @@
+[home]
+other = "Home"
+
+[language]
+other = "Language"
+
+[madeWith]
+other = "Made with"
+
+[postedOn]
+other = "Posted on:"
+
+[length]
+other = "Length:"
+
+[minuteRead]
+one = "minute read"
+other = "minutes read"
+
+[words]
+other = "words"
+
+[categories]
+other = "Categories:"
+
+[series]
+other = "Series:"
+
+[tags]
+other = "Tags:"
+
+[seeAlso]
+other = "See also:"
+
+[writtenBy]
+other = "Written by"
+
+[by]
+other = "By"
+
+[in]
+other = "in"
+
+[downloadCv]
+other = "Download CV in PDF"
