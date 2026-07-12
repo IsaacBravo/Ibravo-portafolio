@@ -257,6 +257,8 @@ title: Publications & Contributions
 
 ### Reviewer
 <hr>
+<li>EPJ Data Science</li>
+<li>npj Climate Action</li>
 <li>Journal of Digital Social Research</li>
 <li>Telematics and Informatics Report</li>
 <li>Environmental Management</li>
