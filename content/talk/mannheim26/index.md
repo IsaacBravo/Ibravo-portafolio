@@ -1,15 +1,15 @@
 ---
-title: "3rd ANNUAL Meeting - Climate Vision Group 2025"
+title: "4th ANNUAL Meeting - Climate Vision Group 2026"
 #subtitle: "Computational Method Conference"
-excerpt: "Here is my presentation titled Data accessibility on climate change imagery, at the 3rd ANNUAL Climate Vision Group Liverpool."
-date: 2025-06-24
-date_end: "2025-06-24"
+excerpt: "Here is my presentation titled Data accessibility on climate change imagery, at the 4th ANNUAL Climate Vision Group Mannheim."
+date: 2026-06-23
+date_end: "2026-06-23"
 featured: true
 show_post_time: false
-event: "3rd ANNUAL Climate Vision Group 2025"
+event: "4th ANNUAL Climate Vision Group 2026"
 # event_url: https://www.../
 author: "Isaac Bravo"
-location: "Liverpool, United Kingdom"
+location: "Mannheim, Germany"
 draft: false
 # layout options: single, single-sidebar
 layout: single
@@ -28,4 +28,5 @@ links:
 
 ## The Presentation:
 
-<iframe src="https://drive.google.com/file/d/1bxxRbeboHSVGAvuYDoCILHqJ3al4HyyQ/preview?usp=sharing" style="width:100%; height:600px;" frameborder="0"></iframe>
+<iframe src="https://drive.google.com/file/d/1QbEokIsfJ80DqTAGWyhl5_F-J7tgn0xk/preview?usp=sharing" style="width:100%; height:600px;" frameborder="0"></iframe>
+
