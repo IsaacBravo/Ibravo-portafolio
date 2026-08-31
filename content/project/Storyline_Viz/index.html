@@ -1,0 +1,256 @@
+---
+title: "🌍Visualizing Climate Change in the Media"
+subtitle: "Interactive scrollytelling web app"
+excerpt: "A D3-powered scrollytelling project that explores how climate change visuals are studied across media, methods, data modalities, and countries."
+date: 2026-08-31
+author: "Isaac Bravo"
+draft: false
+categories:
+  - Data Viz
+  - Web app
+layout: standalone
+links:
+- icon: github
+  icon_pack: fab
+  name: Source Code
+  url: https://github.com/IsaacBravo/Storyline_Literature_Revie
+---
+<div id="testing-main" class="testing-project-shell">
+        <section id="intro" class="intro-section" aria-labelledby="intro-title">
+            <div class="intro-copy">
+                <p class="eyebrow">Systematic literature review, 2005-2024</p>
+                <h1 id="intro-title">How climate change becomes visible in the media</h1>
+                <p class="lede">A guided look at what researchers study, where the evidence clusters, and which visual media remain under-examined.</p>
+                <dl class="metric-grid" aria-label="Key review metrics">
+                    <div>
+                        <dt>Studies</dt>
+                        <dd>124</dd>
+                    </div>
+                    <div>
+                        <dt>Period</dt>
+                        <dd class="period-value">2005-2024</dd>
+                    </div>
+                    <div>
+                        <dt>Recent work</dt>
+                        <dd>51%</dd>
+                    </div>
+                </dl>
+                <details class="abstract-drawer">
+                    <summary>Read the abstract and citation</summary>
+                    <p>Climate change visualizations in the media play a crucial role in conveying information, raising awareness, and motivating action. This combined systematic and scoping literature review with content analysis to analyse current research on climate change visualisations in traditional and digital media.</p>
+                    <p>Findings show that existing research concentrates on traditional media, has limited focus on social media, and predominantly studies Western countries. Framing theory emerges as the predominant theoretical framework, especially in qualitative studies.</p>
+                    <p><strong>Citation:</strong> Isaac Bravo, Katharina Prasse, Stefanie Walter, Margret Keuper. (2025). Visualizing Climate Change in the Media: A Systematic Literature Review, Challenges, and Future Research. Annals of the International Communication Association. Under review.</p>
+                </details>
+            </div>
+            <aside class="article-preview" aria-labelledby="article-preview-title">
+                <div class="article-preview-header">
+                    <h3 id="article-preview-title">Current article</h3>
+                    <a href="https://academic.oup.com/anncom/advance-article/doi/10.1093/anncom/wlag011/8554293" target="_blank" rel="noreferrer">Open article</a>
+                </div>
+                <iframe
+                    title="Visualizing climate change in the media article"
+                    src="https://drive.google.com/file/d/1Du_yKY5jQWC_x_2iEYChfNitgb_DEAxY/preview?usp=sharing"
+                    loading="lazy">
+                </iframe>
+            </aside>
+        </section>
+
+        <section id="hero" class="step visual-step" aria-labelledby="hero-title">
+            <div class="visual-column">
+                <div class="hero-visual" aria-label="Rotating examples of climate change visuals"></div>
+            </div>
+            <div class="story-copy">
+                <p class="section-kicker">1 / Visual Framing</p>
+                <h2 id="hero-title">Visuals are not decoration. They carry emotional force.</h2>
+                <p class="step-copy">Images can make climate change feel close, urgent, and politically meaningful. They also shape which risks, solutions, and communities audiences remember.</p>
+                <div class="hero-captions" role="tablist" aria-label="Visual examples">
+                    <button type="button" class="emotion-tab" data-emotion="warming">Warming stripes</button>
+                    <button type="button" class="emotion-tab" data-emotion="urgency">Floods</button>
+                    <button type="button" class="emotion-tab" data-emotion="hope">Wildfires</button>
+                </div>
+                <div class="hero-caption-texts insight-panel" aria-live="polite">
+                    <p data-emotion="warming">
+                        Warming stripes compress long-term temperature change into a pattern audiences can recognize quickly.
+                        <span class="image-source">Source: Ed Hawkins (2018), Warming Stripes.</span>
+                    </p>
+                    <p data-emotion="urgency" hidden>
+                        Disaster photographs turn abstract climate risk into immediate lived experience.
+                        <span class="image-source">Source: local project image, <code>images/flood.jpg</code>.</span>
+                    </p>
+                    <p data-emotion="hope" hidden>
+                        Impact imagery needs context so audiences see both risk and possible response.
+                        <span class="image-source">Source: Photo by <a href="https://unsplash.com/@mattpalmer?utm_content=creditCopyText&amp;utm_medium=referral&amp;utm_source=unsplash">Matt Palmer</a> on <a href="https://unsplash.com/photos/brown-and-green-grass-field-near-body-of-water-under-cloudy-sky-during-daytime-K5KmnZHv1Pg?utm_content=creditCopyText&amp;utm_medium=referral&amp;utm_source=unsplash">Unsplash</a>.</span>
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="pubs" class="step" aria-labelledby="pubs-title">
+            <div class="visual-column">
+                <div class="chart-toolbar" aria-label="Publication chart views">
+                    <button type="button" class="segmented-button active" data-panel-target="pubs" data-panel-key="all">All years</button>
+                    <button type="button" class="segmented-button" data-panel-target="pubs" data-panel-key="recent">Recent boom</button>
+                </div>
+                <div class="chart" id="pubs-chart" role="img" aria-label="Yearly paper counts with 2020 to 2024 highlighted"></div>
+                <div class="annotation" id="pubs-annotations" aria-hidden="true"></div>
+                <p class="chart-note">Hover or focus marks in the charts for exact values where available.</p>
+            </div>
+            <div class="story-copy">
+                <p class="section-kicker">2 / Publication Timeline</p>
+                <h2 id="pubs-title">The research boom is recent.</h2>
+                <p class="step-copy">More than half of the reviewed publications appeared from 2020 to 2024.</p>
+                <div class="insight-stack" data-insight-group="pubs" aria-live="polite">
+                    <div class="insight-panel tone-teal active" data-insight-panel="pubs" data-panel-key="all">
+                        <strong>Takeaway:</strong> The timeline shows slow accumulation until the field accelerates in the 2020s.
+                    </div>
+                    <div class="insight-panel tone-amber" data-insight-panel="pubs" data-panel-key="recent">
+                        <strong>Takeaway:</strong> 63 of 124 publications appear from 2020 to 2024, so the latest platform shifts matter a lot.
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="media-types" class="step" aria-labelledby="media-title">
+            <div class="visual-column stacked-visuals">
+                <div class="chart-toolbar" aria-label="Media evidence views">
+                    <button type="button" class="segmented-button active" data-panel-target="media" data-panel-key="overview">Overview</button>
+                    <button type="button" class="segmented-button" data-panel-target="media" data-panel-key="social">Social platforms</button>
+                </div>
+                <div class="chart chart-half" id="stacked-bar" role="img" aria-label="Share of studies by media type"></div>
+                <div class="chart chart-half" id="dot-plot" role="img" aria-label="Social platform coverage by share of studies"></div>
+            </div>
+            <div class="story-copy">
+                <p class="section-kicker">3 / Media Coverage</p>
+                <h2 id="media-title">Research still leans toward traditional media.</h2>
+                <p class="step-copy">Traditional outlets dominate the evidence base. Social media is growing, but coverage is uneven across platforms.</p>
+                <div class="insight-stack" data-insight-group="media" aria-live="polite">
+                    <div class="insight-panel tone-teal active" data-insight-panel="media" data-panel-key="overview">
+                        <strong>Takeaway:</strong> Traditional media remains the largest research focus, which makes long-running newspaper and broadcast evidence easier to compare.
+                    </div>
+                    <div class="insight-panel tone-coral" data-insight-panel="media" data-panel-key="social">
+                        <strong>Takeaway:</strong> Twitter/X and Instagram dominate social-media studies, while TikTok and Reddit are still thinly represented.
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="methods" class="step" aria-labelledby="methods-title">
+            <div class="visual-column">
+                <div class="chart" id="circle-packing" role="img" aria-label="Circle packing chart of research approaches"></div>
+            </div>
+            <div class="story-copy">
+                <p class="section-kicker">4 / Methods</p>
+                <h2 id="methods-title">Qualitative work dominates the research area.</h2>
+                <p class="step-copy">Manual content analysis is central to the field, while automated image classification appears rarely.</p>
+                <div class="insight-panel">
+                    <strong>Audience cue:</strong> This is a strength for interpretive depth, but a limitation for comparing visuals at platform scale.
+                </div>
+            </div>
+        </section>
+
+        <section id="modalities" class="step" aria-labelledby="modalities-title">
+            <div class="visual-column">
+                <div class="chart-toolbar" aria-label="Modality views">
+                    <button type="button" class="segmented-button active" data-panel-target="modalities" data-panel-key="unimodal">Unimodal</button>
+                    <button type="button" class="segmented-button" data-panel-target="modalities" data-panel-key="multimodal">Multimodal</button>
+                </div>
+                <div class="chart" id="treemap" role="img" aria-label="Treemap of visual and multimodal data types"></div>
+            </div>
+            <div class="story-copy">
+                <p class="section-kicker">5 / Data Modalities</p>
+                <h2 id="modalities-title">Most studies still begin with images.</h2>
+                <p class="step-copy">Images are the most common unit of analysis, while video and richer multimodal combinations are less common.</p>
+                <div class="insight-stack" data-insight-group="modalities" aria-live="polite">
+                    <div class="insight-panel tone-teal active" data-insight-panel="modalities" data-panel-key="unimodal">
+                        <strong>Takeaway:</strong> Still images are the most common unit of analysis, making them the field's clearest baseline.
+                    </div>
+                    <div class="insight-panel tone-blue" data-insight-panel="modalities" data-panel-key="multimodal">
+                        <strong>Takeaway:</strong> Image-plus-text studies are common, but richer combinations with video and audio remain rare.
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="countries" class="step" aria-labelledby="countries-title">
+            <div class="visual-column stacked-visuals">
+                <div class="chart-toolbar" aria-label="Geography chart views">
+                    <button type="button" class="segmented-button active" data-panel-target="countries" data-panel-key="rank">Ranked list</button>
+                    <button type="button" class="segmented-button" data-panel-target="countries" data-panel-key="map">Map</button>
+                </div>
+                <div class="chart chart-half" id="country-bars" role="img" aria-label="Ranked bar chart of countries studied"></div>
+                <div class="chart chart-half" id="world-map" role="img" aria-label="World map showing countries represented in the review"></div>
+            </div>
+            <div class="story-copy">
+                <p class="section-kicker">6 / Geography</p>
+                <h2 id="countries-title">The evidence base has a Global North skew.</h2>
+                <p class="step-copy">The United States, United Kingdom, and Germany appear most often among studied countries.</p>
+                <div class="insight-stack" data-insight-group="countries" aria-live="polite">
+                    <div class="insight-panel tone-amber active" data-insight-panel="countries" data-panel-key="rank">
+                        <strong>Takeaway:</strong> Ranking the countries makes the US, UK, and Germany concentration easy to see.
+                    </div>
+                    <div class="insight-panel tone-teal" data-insight-panel="countries" data-panel-key="map">
+                        <strong>Takeaway:</strong> The map gives a broader view of reach, including countries that appear only once or twice.
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="challenges" class="step final-step" aria-labelledby="challenges-title">
+            <div class="story-copy span-copy">
+                <p class="section-kicker">7 / What Comes Next</p>
+                <h2 id="challenges-title">The next research agenda is about access, scale, and representation.</h2>
+            </div>
+            <ul class="challenge-cards" aria-label="Research challenges and next steps">
+                <li>
+                    <button type="button" class="challenge-card accent-green active" data-panel-target="challenge" data-panel-key="access">
+                        <span class="challenge-icon" aria-hidden="true">API</span>
+                        <span>
+                            <strong>Data access and platform bias</strong>
+                            <small>Limited APIs constrain scale and comparability.</small>
+                        </span>
+                    </button>
+                </li>
+                <li>
+                    <button type="button" class="challenge-card accent-amber" data-panel-target="challenge" data-panel-key="methods">
+                        <span class="challenge-icon" aria-hidden="true">MIX</span>
+                        <span>
+                            <strong>Method fragmentation</strong>
+                            <small>Deep qualitative work and computational scale need stronger bridges.</small>
+                        </span>
+                    </button>
+                </li>
+                <li>
+                    <button type="button" class="challenge-card accent-red" data-panel-target="challenge" data-panel-key="misinfo">
+                        <span class="challenge-icon" aria-hidden="true">!</span>
+                        <span>
+                            <strong>Misinformation and solution sabotage</strong>
+                            <small>Visual misinformation now targets solutions as well as science.</small>
+                        </span>
+                    </button>
+                </li>
+                <li>
+                    <button type="button" class="challenge-card accent-blue" data-panel-target="challenge" data-panel-key="global">
+                        <span class="challenge-icon" aria-hidden="true">GEO</span>
+                        <span>
+                            <strong>Global representation</strong>
+                            <small>More Global South, Indigenous, and participatory contexts are needed.</small>
+                        </span>
+                    </button>
+                </li>
+            </ul>
+            <div class="insight-stack span-copy" data-insight-group="challenge" aria-live="polite">
+                <div class="insight-panel tone-green active" data-insight-panel="challenge" data-panel-key="access">
+                    <strong>Next step:</strong> Document API limits and platform sampling bias so future reviews can compare evidence quality.
+                </div>
+                <div class="insight-panel tone-amber" data-insight-panel="challenge" data-panel-key="methods">
+                    <strong>Next step:</strong> Pair close reading with computational approaches that are transparent, multilingual, and validated.
+                </div>
+                <div class="insight-panel tone-coral" data-insight-panel="challenge" data-panel-key="misinfo">
+                    <strong>Next step:</strong> Study visual attacks on climate solutions, not only denial of climate science.
+                </div>
+                <div class="insight-panel tone-blue" data-insight-panel="challenge" data-panel-key="global">
+                    <strong>Next step:</strong> Build more participatory research with Global South and Indigenous communities.
+                </div>
+            </div>
+        </section>
+    </div>
