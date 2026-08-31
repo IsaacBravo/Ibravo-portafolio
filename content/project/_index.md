@@ -6,7 +6,7 @@ author: "Isaac Bravo"
 show_post_thumbnail: true
 show_author_byline: true
 show_post_date: false
-show_button_links: false
+show_button_links: true
 layout: list-grid
 custom_class: center-projects-page # Add a unique class here
 
